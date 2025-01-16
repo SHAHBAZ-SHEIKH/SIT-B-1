@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+        <div>
+            <input type="text" id="result" />
+        </div>
+      <div class="box1">
+        <div><button onclick="setNumber(0)">0</button></div>
+        <div><button onclick="setNumber(1)">1</button></div>
+        <div><button onclick="setNumber(2)">2</button></div>
+        <div><button onclick="setNumber(3)">3</button></div>
+      </div>
+      <div class="box2">
+        <div><button onclick="setNumber(4)">4</button></div>
+        <div><button onclick="setNumber(5)">5</button></div>
+        <div><button onclick="setNumber(6)">6</button></div>
+        <div><button onclick="setNumber(7)">7</button></div>
+        
+      </div>
+
+      <div class="box3">
+        <div><button onclick="setNumber(8)">8</button></div>
+        <div><button onclick="setNumber(9)">9</button></div>
+        <div><button onclick="clearResult()">clc</button></div>
+        <div><button onclick="getResult()">=</button></div>
+        
+      </div>
+      <div class="box4">
+        <div><button onclick="setNumber('+')">+</button></div>
+        <div><button onclick="setNumber('-')">-</button></div>
+        <div><button onclick="setNumber('*')">X</button></div>
+        <div><button onclick="setNumber('/')">/</button></div>
+        
+      </div>
+      <div class="box4">
+        <div><button onclick="delItem()">del</button></div>
+        <div><button onclick="setNumber('-')">-</button></div>
+        <div><button onclick="setNumber('*')">X</button></div>
+        <div><button onclick="setNumber('/')">/</button></div>
+        
+      </div>
+    </div>
+
+
+    <div>
+        <input type="text" id="userInput"  placeholder="Enter Your Word"/>
+        <button onclick="checkPalindrome()">Check</button>
+        <p id="checkValue"></p>
+    </div>
+
+    <script src="aap.js"></script>
+  </body>
+</html>
