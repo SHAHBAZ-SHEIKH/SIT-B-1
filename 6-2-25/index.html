@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="box">
+            <button onclick="aginRandonNumer()">Again</button>
+            <h3>Between 1 to 20</h3>
+        </div>
+
+        <div class="box1">
+            <div>
+                <h1>Guess Number</h1>
+                <div class="question">?</div>
+            </div>
+        </div>
+        <div class="box3">
+            <div class="box4">
+                <div><input id="inputValue" type="number"></div>
+                <div>
+                    <button onclick="checkNumber()">Check</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3 id="message">Guess Number</h3>
+                    
+                </div>
+                <div>
+                    <h2>Score: <span id="score">20</span></h2>
+                </div>
+                <div>
+                    <h2>Highscore: <span id="highscore">0</span></h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
