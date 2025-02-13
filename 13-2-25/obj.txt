@@ -1,0 +1,13 @@
+A javaScript Object is collection of Group Data (name,value).
+The named values,in javaScript object are called properties
+javaScript variables can contain only single values.
+
+var x = 1
+objects are varibale too.But object can contain many values.
+The values are written as name:value pairs (name and value separated by colon)
+Object = School Bags
+
+
+This
+
+This Keyword refer to current Object /Current Context
