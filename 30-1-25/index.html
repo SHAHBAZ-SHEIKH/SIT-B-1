@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <style>
+    <!-- <style>
         .color{
             background-color: red;
         }.text{
             color: green;
         }
-    </style>
-</head>
+    </style> -->
+  </head>
 
-<body>
+  <body>
+    <form action="https://formspree.io/f/mqaejlkl" method="POST">
+      <label for="name">Your name:</label>
+      <input type="text" id="name" name="name" />
+      <label>
+        Your email:
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
 
-    <form id="form">
-        <input id="userName" type="text" placeholder="What is Your Name">
-        <input id="userEmail" type="email" placeholder="Enter Your Email">
-        <input type="submit">
+      <label for="english">English</label>
+<input type="checkbox" id="english" name="language" value="english"> English
 
+<label for="urdu">Urdu</label>
+<input type="checkbox" id="urdu" name="language" value="urdu"> Urdu
+
+      <label for="gender">Gender</label>
+      <input type="radio" id="gender" name="gender" value="male"/>Male
+      <input type="radio"  id="gender" name="gender" value="female"/>Female
+
+      <label for="country">Choose a country:</label>
+      <select id="country" name="country">
+        <option value="pakistan">Pakistan</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+      </select>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
     </form>
-
 
     <!-- <button class="btn">click  me</button> -->
 
-
-
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

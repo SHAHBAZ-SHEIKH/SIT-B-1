@@ -40,24 +40,29 @@
 //     console.log("userEmail",userEmail.value)
 // })
 
-console.log(myname)
-var myname = "shahbaz"
-var myname = "shahbaz"
-myname ="Ahmed"
+// console.log(myname)
+// var myname = "shahbaz"
+// var myname = "shahbaz"
+// myname ="Ahmed"
 
-var faraz;
+// var faraz;
 
-console.log(faraz)
+// console.log(faraz)
 
-console.log(myname)
+// console.log(myname)
 
 //console.log(name)
 
 // let name = "shahbaz"
 // name = 1222
-const fruits = "Apple"
-fruits="Banana"
-console.log(fruits)
+// const fruits = "Apple"
+// fruits="Banana"
+// console.log(fruits)
 
-console.log(name)
+// console.log(name)
+
+
+
+
+
 
